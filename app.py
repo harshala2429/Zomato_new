@@ -8,6 +8,8 @@ st.title("Zomato Restaurant Insights Dashboard")
 # Load data
 df = pd.read_csv("https://raw.githubusercontent.com/harshala2429/Zomato_new/main/zomato_clean.csv")
 
+
+
 # Sidebar filters
 st.sidebar.header("Filter Options")
 city_options = ["All"] + df['location'].dropna().unique().tolist()
