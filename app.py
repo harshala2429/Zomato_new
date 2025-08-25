@@ -6,7 +6,7 @@ import plotly.express as px
 st.title("Zomato Restaurant Insights Dashboard")
 
 # Load data
-df = pd.read_csv("https://raw.githubusercontent.com/datasets/Zomato_EDA/main/zomato_clean.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/harshala2429/Zomato_new/main/zomato_clean.csv")
 
 # Sidebar filters
 st.sidebar.header("Filter Options")
